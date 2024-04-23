@@ -7,8 +7,8 @@ Ditto: Offers a data allowance of 8 GB for ₱400 per month. This plan includes 
 Implement the visitor design pattern based from the given diagram. Refer to this link.  
 
 Test your codes before the given client program:
-
-`public class TelcoPromo {
+```
+  public class TelcoPromo {
   public static void main(String[] args) {
     TelcoSubscription smart = new Telco(15, 500, Smart,false);
     TelcoSubscription globe = new Telco(10, 450, Globe,true);
@@ -31,7 +31,7 @@ Test your codes before the given client program:
 
                                    unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
   }
-}`
-
+}
+```
 ## UML Class Diagram
 ![image](https://github.com/rnnthnysy/visitorPatternSW/assets/142371703/031772e9-92f1-4684-9715-3d301af3be5e)
